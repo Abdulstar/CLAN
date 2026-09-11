@@ -20,7 +20,7 @@ def parse_option():
 
     # data config
     parser.add_argument('--data_path', type=str, default='data/lycos.csv', help='path to dataset')
-    parser.add_argument('--checkpoint_path', type=str, default='weights', help='path to dataset')
+    parser.add_argument('--widgets_path', type=str, default='weights', help='path to widget folder')
     parser.add_argument('--drop_cols', type=str, default='flow_id,src_addr,src_port,dst_addr,dst_port,ip_prot,timestamp', help='columns to drop from dataset')
     parser.add_argument('--sample_thres', type=int, default=100, help='maximum number before exclusion as a zero day attack')
     parser.add_argument('--split_seed', type=int, default=39058032, help='seed for train test split')
