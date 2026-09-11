@@ -229,7 +229,7 @@ def main():
         model = model, 
         optimiser = optimiser, 
         schedular = schedule, 
-        path = opt.checkpoint_path + '/clan.pt.tar', 
+        path = opt.widgets_path + '/clan.pt.tar', 
     )
 
 if __name__ == '__main__':
